@@ -12,39 +12,56 @@ using System.Text.RegularExpressions;
 using System.Text;
 using System;
 
-class Solution
+class Result
 {
-    private static bool isGmailProvider(string email)
-    {       
-        String[] s1array = email.Split("@");        
 
-        return s1array[1] == "gmail.com";
+    /*
+     * Complete the 'bitwiseAnd' function below.
+     *
+     * The function is expected to return an INTEGER.
+     * The function accepts following parameters:
+     *  1. INTEGER N
+     *  2. INTEGER K
+     */
+
+    public static int bitwiseAnd(int N, int K)
+    {
+        int result = 0;
+
+        for (int i = 0; i < N; i++)
+        {
+            for (int j = i+1; j <= N; j++)
+            {
+                int tmp = i & j;
+                if (tmp < K && tmp > result)
+                {
+                    result = tmp;
+                }
+            }
+        }
+
+        return result;
     }
 
+}
+
+class Solution
+{
     public static void Main(string[] args)
-    {
-        int N = Convert.ToInt32(Console.ReadLine().Trim());
+    {        
+        int t = Convert.ToInt32(Console.ReadLine().Trim());
 
-        List<string> names = new List<string>();
-
-        for (int NItr = 0; NItr < N; NItr++)
+        for (int tItr = 0; tItr < t; tItr++)
         {
             string[] firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
 
-            string firstName = firstMultipleInput[0];
+            int count = Convert.ToInt32(firstMultipleInput[0]);
 
-            string emailID = firstMultipleInput[1];
+            int lim = Convert.ToInt32(firstMultipleInput[1]);
 
-            if (isGmailProvider(emailID))
-            {
-                names.Add(firstName);
-            }
-        }
-        names.Sort();
+            int res = Result.bitwiseAnd(count, lim);
 
-        foreach (var item in names)
-        {
-            Console.WriteLine(item);
+            Console.WriteLine(res.ToString());
         }
     }
 }
