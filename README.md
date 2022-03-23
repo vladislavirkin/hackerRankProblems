@@ -46,7 +46,7 @@ This is throw-away code that is only supposed to correctly get the job done. I u
 
 ## Badges
 
-![30 Days of Code](./badges/badge.30_days_of_code.png)
+![30 Days of Code](./resources/badges/badge.30_days_of_code.png)
 
 ## Practices completed
 
