@@ -40,8 +40,8 @@ This is throw-away code that is only supposed to correctly get the job done. I u
 
 ## Certificates
 
-<a href="./certificates/certificate.c#(basic).png">
-    <img src="./badges/badge.c#(basic).png" alt="C# (Basic) Certificate"/>
+<a href="./certificates/certificate.c%23(basic).png">
+    <img src="./badges/badge.c%23(basic).png" alt="C# (Basic) Certificate"/>
 </a>
 
 ## Badges
