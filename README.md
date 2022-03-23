@@ -8,9 +8,7 @@
 	<a href="https://github.com/vladislavirkin/hackerRankProblems#table-of-contents">
         	<img src="https://img.shields.io/badge/solutions-1-purple.svg?style=flat-square">
     	</a>	
-	
 	<img src="https://img.shields.io/badge/Language-C%23%2FPython-orange.svg">
-	
 	<a href="https://github.com/vladislavirkin/hackerRankProblems/commits/main">
 		<img src="https://img.shields.io/github/last-commit/vladislavirkin/hackerRankProblems">    
     	</a>	
