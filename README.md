@@ -4,6 +4,14 @@
     </a>
 </p>
 
+<p align="center">
+	<img src="https://img.shields.io/badge/solutions-1-purple.svg?style=flat-square">
+	<img src="https://img.shields.io/badge/Language-C%23%2FPython-orange.svg">
+	<img src="https://img.shields.io/github/last-commit/vladislavirkin/hackerRankProblems">
+    <img src="https://img.shields.io/github/repo-size/vladislavirkin/hackerRankProblems">
+</p>
+
+
 # HackerRank | Practice, Tutorials & Interview Preparation Solutions
 
 This repository consists of solutions to HackerRank **practice**, **tutorials**, and **interview preparation** problems with **C#**, **Python**.
