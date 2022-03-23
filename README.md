@@ -8,7 +8,7 @@
 
 This repository consists of solutions to HackerRank **practice**, **tutorials**, and **interview preparation** problems with **C#**, **Python**.
 
-[![Solutions](https://img.shields.io/badge/solutions-1-green.svg?style=flat-square)]
+![Solutions](https://img.shields.io/badge/solutions-1-green.svg?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/vladislavirkin/hackerRankProblems)
 ![GitHub repo size](https://img.shields.io/github/repo-size/vladislavirkin/hackerRankProblems)
 
