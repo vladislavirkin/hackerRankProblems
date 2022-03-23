@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-	<a href="https://github.com/vladislavirkin/hackerRankProblems#disclaimer">
+	<a href="https://github.com/vladislavirkin/hackerRankProblems#table-of-contents">
         	<img src="https://img.shields.io/badge/solutions-1-purple.svg?style=flat-square">
     	</a>	
 	<img src="https://img.shields.io/badge/Language-C%23%2FPython-orange.svg">
