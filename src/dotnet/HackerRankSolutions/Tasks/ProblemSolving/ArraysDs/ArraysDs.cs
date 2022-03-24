@@ -6,16 +6,14 @@ public static class ArraysDs
 {
     public static void Solve(IReaderWriter readerWriter)
     {
-        var arrCount = Convert.ToInt32(Console.ReadLine().Trim());
-
-        List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+        var  arr =readerWriter.ReadLineToIntArray();
 
         var res = ReverseArray(arr);
 
         readerWriter.WriteLine(string.Join(" ", res));
     }
 
-    private static IEnumerable<int> ReverseArray(List<int> items)
+    private static IEnumerable<int> ReverseArray(IReadOnlyList<int> items)
     {
         var ret = new List<int>();
 
