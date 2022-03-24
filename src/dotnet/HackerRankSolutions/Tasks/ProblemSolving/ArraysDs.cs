@@ -1,10 +1,10 @@
 using HackerRankSolutions.ReaderWriter;
 
-namespace HackerRankSolutions.Tasks.ProblemSolving.ArraysDS;
+namespace HackerRankSolutions.Tasks.ProblemSolving;
 
-public static class ArraysDs
+public class ArraysDs : IProblem
 {
-    public static void Solve(IReaderWriter readerWriter)
+    public void Solve(IReaderWriter readerWriter)
     {
         var  arr =readerWriter.ReadLineToIntArray();
 

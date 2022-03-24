@@ -4,5 +4,5 @@ namespace HackerRankSolutions;
 
 public interface IProblem
 {
-    void SolvePuzzle(IReaderWriter readerWriter);
+    void Solve(IReaderWriter readerWriter);
 }
