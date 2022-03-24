@@ -1,6 +1,9 @@
 ﻿using System.Diagnostics;
+using System.Numerics;
 using HackerRankSolutions.ReaderWriter;
 using HackerRankSolutions.Tasks.OneWeekPreparationKit.Day1;
+using HackerRankSolutions.Tasks.ProblemSolving.ArraysDS;
+using HackerRankSolutions.Tasks.ProblemSolving.MatrixLayerRotation;
 
 namespace HackerRankSolutions;
 
@@ -14,7 +17,7 @@ internal class Solution
 
     private static void SolvePuzzle(IReaderWriter readerWriter)
     {
-        PlusMinus.Solve(readerWriter);
+        ArraysDs.Solve(readerWriter);
     }
 
     public static void Main(string[] args)
