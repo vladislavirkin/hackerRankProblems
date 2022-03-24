@@ -6,7 +6,7 @@
 
 <p align="center">
 	<a href="https://github.com/vladislavirkin/hackerRankProblems#tasks-completed">
-        	<img src="https://img.shields.io/badge/solutions-1-purple.svg?style=flat-square">
+        	<img src="https://img.shields.io/badge/solutions-2-purple.svg?style=flat-square">
     	</a>	
 	<img src="https://img.shields.io/badge/Language-C%23%2FPython-orange.svg">
 	<a href="https://github.com/vladislavirkin/hackerRankProblems/commits/main">
@@ -53,6 +53,13 @@ This is throw-away code that is only supposed to correctly get the job done. I u
 * [Interview Preparation Kit](#interview-preparation-kit)
 
 ### Practices completed
+
+#### Problem Solving
+
+|     Domain      |          Challenge          |                                        Problem                                        | Difficulty |                                             Solution                                              |
+|:---------------:|:---------------------------:|:-------------------------------------------------------------------------------------:|:----------:|:-------------------------------------------------------------------------------------------------:|
+|   Algorithms    |    Matrix Layer Rotation    | [HackerRank link](https://www.hackerrank.com/challenges/matrix-rotation-algo/problem) |    Hard    | [Link](./src/HackerRankSolutions/Tasks/ProblemSolving/MatrixLayerRotation/MatrixLayerRotation.cs) |
+| Data structures |          Arrays DS          |      [HackerRank link](https://www.hackerrank.com/challenges/arrays-ds/problem)       |    Easy    |            [Link](./src/HackerRankSolutions/Tasks/ProblemSolving/ArraysDs/ArraysDs.cs)            |
 
 ### Tutorials completed
 
