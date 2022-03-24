@@ -8,7 +8,7 @@
 	<a href="https://github.com/vladislavirkin/hackerRankProblems#tasks-completed">
         	<img src="https://img.shields.io/badge/solutions-2-purple.svg?style=flat-square">
     	</a>	
-	<img src="https://img.shields.io/badge/Language-C%23%2FPython-orange.svg">
+	<img src="https://img.shields.io/badge/Language-C%23-orange.svg">
 	<a href="https://github.com/vladislavirkin/hackerRankProblems/commits/main">
 		<img src="https://img.shields.io/github/last-commit/vladislavirkin/hackerRankProblems">    
     	</a>	
@@ -48,19 +48,14 @@ This is throw-away code that is only supposed to correctly get the job done. I u
 
 ## Tasks completed
 
-* [Practices completed](#practices-completed)
-* [Tutorials completed](#tutorials-completed)
+* [Practices](#practices)
+* [Tutorials](#tutorials)
 * [Interview Preparation Kit](#interview-preparation-kit)
 
-### Practices completed
+### Practices
 
-#### Problem Solving
+[Problem Solving](./docs/)
 
-|     Domain      |          Challenge          |                                        Problem                                        | Difficulty |                                             Solution                                              |
-|:---------------:|:---------------------------:|:-------------------------------------------------------------------------------------:|:----------:|:-------------------------------------------------------------------------------------------------:|
-|   Algorithms    |    Matrix Layer Rotation    | [HackerRank link](https://www.hackerrank.com/challenges/matrix-rotation-algo/problem) |    Hard    | [Link](./src/HackerRankSolutions/Tasks/ProblemSolving/MatrixLayerRotation/MatrixLayerRotation.cs) |
-| Data structures |          Arrays DS          |      [HackerRank link](https://www.hackerrank.com/challenges/arrays-ds/problem)       |    Easy    |            [Link](./src/HackerRankSolutions/Tasks/ProblemSolving/ArraysDs/ArraysDs.cs)            |
-
-### Tutorials completed
+### Tutorials
 
 ### Interview Preparation Kit
