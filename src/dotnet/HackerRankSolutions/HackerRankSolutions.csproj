@@ -7,4 +7,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Tasks\ProblemSolving\ArraysDs" />
+      <Folder Include="Tasks\ProblemSolving\ExtraLongFactorials" />
+      <Folder Include="Tasks\ProblemSolving\MatrixLayerRotation" />
+    </ItemGroup>
+
 </Project>

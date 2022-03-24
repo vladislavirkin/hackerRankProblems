@@ -1,13 +1,13 @@
 using HackerRankSolutions.ReaderWriter;
 
-namespace HackerRankSolutions.Tasks.ProblemSolving.MatrixLayerRotation;
+namespace HackerRankSolutions.Tasks.ProblemSolving;
 
-public static class MatrixLayerRotation
+public class MatrixLayerRotation
 {
-    private static List<List<int>> _rotatedMatrix;
-    private static int _columns, _rows, _rotate;
+    private List<List<int>> _rotatedMatrix;
+    private int _columns, _rows, _rotate;
     
-    public static void Solve(IReaderWriter readerWriter)
+    public void Solve(IReaderWriter readerWriter)
     {
         var firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
 
@@ -42,7 +42,7 @@ public static class MatrixLayerRotation
         PrintMatrix();
     }
 
-    private static int CalculateDeltaForRect(int bottom)
+    private int CalculateDeltaForRect(int bottom)
     {      
         // sides of current rect
         var x = _rows - bottom*2;
@@ -53,12 +53,12 @@ public static class MatrixLayerRotation
         return p == 0 ? 1 : _rotate % p;
     }        
 
-    private static List<int> ShiftRect(List<int> items, int places)
+    private List<int> ShiftRect(List<int> items, int places)
     {
         return items.Select((t, i) => items[(i + Math.Abs(items.Count - places)) % items.Count]).ToList();
     }
 
-    private static List<int> FillRect(int bottom)
+    private List<int> FillRect(int bottom)
     {
         var result = new List<int>();
 
@@ -80,7 +80,7 @@ public static class MatrixLayerRotation
         return result;
     }
 
-    private static void FillRotatedMatrix(List<int> rect, int bottom)
+    private void FillRotatedMatrix(List<int> rect, int bottom)
     {
         var x = _rows - bottom;
         var y = _columns - bottom;
@@ -112,7 +112,7 @@ public static class MatrixLayerRotation
         }
     }
     
-    private static void PrintMatrix()
+    private void PrintMatrix()
     {        
         foreach (var item in _rotatedMatrix)
         {
