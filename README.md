@@ -44,7 +44,9 @@ This is throw-away code that is only supposed to correctly get the job done. I u
 
 ## Badges
 
-![30 Days of Code](./resources/badges/badge.30_days_of_code.png)
+<a href="https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bsubdomains%5D%5B%5D=30-days-of-code&badge_type=30-days-of-code">
+    <img src="./resources/badges/badge.30_days_of_code.png" alt="30 Days of Code"/>
+</a>
 
 ## Tasks completed
 
