@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-	<a href="https://github.com/vladislavirkin/hackerRankProblems#table-of-contents">
+	<a href="https://github.com/vladislavirkin/hackerRankProblems#tasks-completed">
         	<img src="https://img.shields.io/badge/solutions-1-purple.svg?style=flat-square">
     	</a>	
 	<img src="https://img.shields.io/badge/Language-C%23%2FPython-orange.svg">
@@ -30,9 +30,7 @@ This is throw-away code that is only supposed to correctly get the job done. I u
 * [HackerRank Profile](#hackerrank-profile)
 * [Certificates](#certificates)
 * [Badges](#badges)
-* [Practices completed](#practices-completed)
-* [Tutorials completed](#tutorials-completed)
-* [Interview Preparation Kit](#interview-preparation-kit)
+* [Tasks completed](#tasks-completed)
 
 ## HackerRank Profile
 
@@ -48,8 +46,14 @@ This is throw-away code that is only supposed to correctly get the job done. I u
 
 ![30 Days of Code](./resources/badges/badge.30_days_of_code.png)
 
-## Practices completed
+## Tasks completed
 
-## Tutorials completed
+* [Practices completed](#practices-completed)
+* [Tutorials completed](#tutorials-completed)
+* [Interview Preparation Kit](#interview-preparation-kit)
 
-## Interview Preparation Kit
+### Practices completed
+
+### Tutorials completed
+
+### Interview Preparation Kit
