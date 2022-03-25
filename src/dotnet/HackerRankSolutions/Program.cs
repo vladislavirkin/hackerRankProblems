@@ -23,7 +23,7 @@ internal class Solution
             }
 
 
-            IProblem problem = new ExtraLongFactorials();
+            IProblem problem = new SherlockAndAnagrams();
             problem.Solve(readerWriter);
 
             if (Debugger.IsAttached)
