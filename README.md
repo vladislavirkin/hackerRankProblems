@@ -47,7 +47,7 @@ This is throw-away code that is only supposed to correctly get the job done. I u
 </a>
 
 <a href="./certificates/certificate.problemSolving(intermediate).png">
-    <img src="./resources/badges/badge.problemSolving(intermediate)1.png" alt="Problem Solving (intermediate) Certificate"/>
+    <img src="./resources/badges/badge.problemSolving(intermediate).png" alt="Problem Solving (intermediate) Certificate"/>
 </a>
 
 ## Badges
