@@ -6,15 +6,15 @@
 
 <p align="center">
 	<a href="https://github.com/vladislavirkin/hackerRankProblems#tasks-completed">
-        	<img src="https://img.shields.io/badge/solutions-8-purple.svg?style=flat-square">
-    	</a>	
+        	<img src="https://img.shields.io/badge/solutions-18-purple.svg?style=flat-square">
+    </a>	
 	<img src="https://img.shields.io/badge/Language-C%23-orange.svg">
 	<a href="https://github.com/vladislavirkin/hackerRankProblems/commits/main">
 		<img src="https://img.shields.io/github/last-commit/vladislavirkin/hackerRankProblems">    
-    	</a>	
+    </a>	
 	<a href="https://github.com/vladislavirkin/hackerRankProblems/archive/main.zip">
 		<img src="https://img.shields.io/github/repo-size/vladislavirkin/hackerRankProblems">
-    	</a>
+    </a>
 </p>
 
 # HackerRank | Practice, Tutorials & Interview Preparation Solutions
@@ -40,6 +40,10 @@ This is throw-away code that is only supposed to correctly get the job done. I u
 
 <a href="./certificates/certificate.c%23(basic).png">
     <img src="./resources/badges/badge.c%23(basic).png" alt="C# (Basic) Certificate"/>
+</a>
+
+<a href="./certificates/certificate.problemSolving(basic).png">
+    <img src="./resources/badges/badge.problemSolving(basic).png" alt="Problem Solving (Basic) Certificate"/>
 </a>
 
 ## Badges

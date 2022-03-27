@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace HackerRankSolutions.ProblemSolving;
 
 [TestFixture]
-public class SubArraySums
+public class SubArraysSum
 {
     public static IEnumerable<TestCaseData> TestSource()
     {
