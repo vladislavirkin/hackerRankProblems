@@ -1,27 +1,28 @@
-using HackerRankSolutions.ReaderWriter;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using NUnit.Framework;
 
-namespace HackerRankSolutions.Tasks.ProblemSolving;
+namespace HackerRankSolutions.ProblemSolving;
 
+[TestFixture]
 public class MatrixLayerRotation
 {
     private List<List<int>> _rotatedMatrix;
     private int _columns, _rows, _rotate;
     
-    public void Solve(IReaderWriter readerWriter)
+    public static IEnumerable<TestCaseData> TestSource()
     {
-        var firstMultipleInput = Console.ReadLine().TrimEnd().Split(' ');
-
-        var m = Convert.ToInt32(firstMultipleInput[0]);
-
-        var n = Convert.ToInt32(firstMultipleInput[1]);
-
-        var r = Convert.ToInt32(firstMultipleInput[2]);
-
-        var matrix = new List<List<int>>();
-
-        for (var i = 0; i < m; i++)
-            matrix.Add(Console.ReadLine().TrimEnd().Split(' ').ToList().Select(matrixTemp => Convert.ToInt32(matrixTemp)).ToList());
-
+        yield return new TestCaseData(
+            new List<List<int>> { new() { 1, 2, 3, 4 }, new() { 5, 6, 7, 8 }, new() { 9, 10, 11, 12 }, new() { 13, 14, 15, 16 } }, 
+            2, 
+            new List<List<int>> { new() { 3, 4, 8, 12 }, new() { 2, 11, 10, 16 }, new() { 1, 7, 6, 15 }, new() { 5, 9, 13, 14 } });
+    }
+    
+    [Test]
+    [TestCaseSource(nameof(TestSource))]
+    public void RotateMatrix(List<List<int>> matrix, int r, List<List<int>> expected)
+    {
         _rotatedMatrix = matrix;
 
         _rows = _rotatedMatrix.Count - 1;
@@ -39,7 +40,7 @@ public class MatrixLayerRotation
             FillRotatedMatrix(rect, i);
         }
 
-        PrintMatrix();
+        CollectionAssert.AreEqual(expected, _rotatedMatrix, "Rotated matrix calculated incorrectly.");
     }
 
     private int CalculateDeltaForRect(int bottom)
@@ -109,19 +110,6 @@ public class MatrixLayerRotation
         {
             _rotatedMatrix[bottom][i] = rect[counter];
             counter++;            
-        }
-    }
-    
-    private void PrintMatrix()
-    {        
-        foreach (var item in _rotatedMatrix)
-        {
-            foreach (var elem in item)
-            {
-                Console.Write(elem);
-                Console.Write(" ");
-            }
-            Console.Write("\n");
         }
     }
 }
