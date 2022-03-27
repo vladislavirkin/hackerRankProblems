@@ -6,3 +6,5 @@
 ## 0.1 - 2021.07.21
 
 * Created repo.
+* Add some solutions.
+* Add solutions for 30-day-of-code tutorial
