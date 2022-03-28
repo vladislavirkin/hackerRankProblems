@@ -68,8 +68,9 @@ This is throw-away code that is only supposed to correctly get the job done. I u
 ### Practices
 
 * [Problem Solving](./docs/)
-* [One week preparation kit](./docs/)
 
 ### Tutorials
 
 ### Interview Preparation Kit
+
+* [One week preparation kit](./docs/)
