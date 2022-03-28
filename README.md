@@ -6,7 +6,7 @@
 
 <p align="center">
 	<a href="https://github.com/vladislavirkin/hackerRankProblems#tasks-completed">
-        	<img src="https://img.shields.io/badge/solutions-20-purple.svg?style=flat-square">
+        	<img src="https://img.shields.io/badge/solutions-22-purple.svg?style=flat-square">
     </a>	
 	<img src="https://img.shields.io/badge/Language-C%23-orange.svg">
 	<a href="https://github.com/vladislavirkin/hackerRankProblems/commits/main">

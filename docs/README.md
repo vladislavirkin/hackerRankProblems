@@ -27,3 +27,10 @@
 |     Domain      |                                         HackerRank Link                                         |                                        Problem                                        | Difficulty |                              Solution                               |
 |:---------------:|:-----------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------:|:----------:|:-------------------------------------------------------------------:|
 |   Algorithms    | [Plus minus](https://www.hackerrank.com/challenges/one-week-preparation-kit-plus-minus/problem) | [Plus Minus](./OneWeekPreparationKit/DayOne/OneWeekPreparationKit.Easy.PlusMinus.pdf) |    Easy    | [C#](../src/HackerRankSolutions/OneWeekPreparationKit/PlusMinus.cs) |
+
+# Hiring Test
+
+|     Domain      | HackerRank Link |                             Problem                             | Difficulty  |                          Solution                           |
+|:---------------:|:---------------:|:---------------------------------------------------------------:|:-----------:|:-----------------------------------------------------------:|
+|   Algorithms    | [Min operation] | [Min operation](./HiringTest/HiringTest.Medium.MinOperation.md) |   Medium    | [C#](../src/HackerRankSolutions/HiringTest/MinOperation.cs) |
+|   Algorithms    |  [Roll String]  |   [Roll string](./HiringTest/HiringTest.Medium.RollString.md)   |   Medium    |  [C#](../src/HackerRankSolutions/HiringTest/RollString.cs)  |
