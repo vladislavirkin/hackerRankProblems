@@ -9,7 +9,7 @@ public class PlusMinus
 {
     public static IEnumerable<TestCaseData> TestSource()
     {
-        yield return new TestCaseData(new List<int> { 1, 1, 0, -1, -1 }, new List<string> { "0,400000", "0,400000", "0,200000" });
+        yield return new TestCaseData(new List<int> { 1, 1, 0, -1, -1 }, new List<string> { 0.4.ToString("N" + 6), 0.4.ToString("N" + 6), 0.2.ToString("N" + 6) });
     }
     
     [Test]
