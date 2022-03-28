@@ -6,15 +6,18 @@
 
 <p align="center">
 	<a href="https://github.com/vladislavirkin/hackerRankProblems#tasks-completed">
-        	<img src="https://img.shields.io/badge/solutions-22-purple.svg?style=flat-square">
-    </a>	
+		<img src="https://img.shields.io/badge/solutions-22-purple.svg?style=flat-square">
+	</a>	
 	<img src="https://img.shields.io/badge/Language-C%23-orange.svg">
 	<a href="https://github.com/vladislavirkin/hackerRankProblems/commits/main">
 		<img src="https://img.shields.io/github/last-commit/vladislavirkin/hackerRankProblems">    
-    </a>	
+	</a>
+	<a href="https://github.com/waddleford/WDS.Gateway/actions/workflows/dotnet.yml">
+		<img src="https://github.com/waddleford/WDS.Gateway/actions/workflows/dotnet.yml/badge.svg">    
+	</a>
 	<a href="https://github.com/vladislavirkin/hackerRankProblems/archive/main.zip">
 		<img src="https://img.shields.io/github/repo-size/vladislavirkin/hackerRankProblems">
-    </a>
+	</a>
 </p>
 
 # HackerRank | Practice, Tutorials & Interview Preparation Solutions
