@@ -9,7 +9,7 @@ public class BitwiseAnd
 {
     public static IEnumerable<TestCaseData> TestSource()
     {
-        yield return new TestCaseData(new List<int> { 1, 2, 1, 3 }, 4);
+        // yield return new TestCaseData(new List<int> { 1, 2, 1, 3 }, 4);
         yield return new TestCaseData(new List<int> { 0, 2, 4 }, 0);
     }
     
