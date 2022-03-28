@@ -6,7 +6,7 @@
 
 <p align="center">
 	<a href="https://github.com/vladislavirkin/hackerRankProblems#tasks-completed">
-		<img src="https://img.shields.io/badge/solutions-22-purple.svg?style=flat-square">
+		<img src="https://img.shields.io/badge/solutions-23-purple.svg?style=flat-square">
 	</a>	
 	<img src="https://img.shields.io/badge/Language-C%23-orange.svg">
 	<a href="https://github.com/vladislavirkin/hackerRankProblems/commits/main">
@@ -67,10 +67,10 @@ This is throw-away code that is only supposed to correctly get the job done. I u
 
 ### Practices
 
-* [Problem Solving](./docs/)
+* [Problem Solving](./docs/ProblemSolving/README.md)
 
 ### Tutorials
 
 ### Interview Preparation Kit
 
-* [One week preparation kit](./docs/)
+* [One week preparation kit](./docs/OneWeekPreparationKit/README.md)

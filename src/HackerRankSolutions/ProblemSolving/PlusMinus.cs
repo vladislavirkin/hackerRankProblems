@@ -2,7 +2,7 @@
 using System.Linq;
 using NUnit.Framework;
 
-namespace HackerRankSolutions.OneWeekPreparationKit;
+namespace HackerRankSolutions.ProblemSolving;
 
 [TestFixture]
 public class PlusMinus
