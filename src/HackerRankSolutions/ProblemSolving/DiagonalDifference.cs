@@ -28,12 +28,14 @@ public class DiagonalDifference
                     left += arr[i][j];
                 }                    
             
-                if ((i+j) == (length - 1)) {
+                if (i + j == length - 1) {
                     right += arr[i][j]; 
                 }
             }    
         }
 
-        Assert.AreEqual(expected, Math.Abs(left - right), "Diagonal difference calculated incorrectly.");
+        var ret = Math.Abs(left - right);
+
+        Assert.AreEqual(expected, ret, "Diagonal difference calculated incorrectly.");
     }
 }

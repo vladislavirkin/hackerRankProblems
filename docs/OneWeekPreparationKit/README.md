@@ -10,6 +10,10 @@
 
 ## Day 2
 
-|     Domain      |                                  HackerRank Link                                   |                                      Problem                                       |  Difficulty  |                                Solution                                |
-|:---------------:|:----------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:|:------------:|:----------------------------------------------------------------------:|
-|   Algorithms    |   [Lonely Integer](https://www.hackerrank.com/challenges/lonely-integer/problem)   |             [Lonely Integer](./ProblemSolving.Easy.LonelyInteger.pdf)              |     Easy     |  [C#](../../src/HackerRankSolutions/ProblemSolving/LonelyInteger.cs)   |
+|     Domain      |                                     HackerRank Link                                      |                                          Problem                                           |  Difficulty   |                                 Solution                                  |
+|:---------------:|:----------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------:|:-------------:|:-------------------------------------------------------------------------:|
+|   Algorithms    |      [Lonely Integer](https://www.hackerrank.com/challenges/lonely-integer/problem)      |         [Lonely Integer](../ProblemSolving/ProblemSolving.Easy.LonelyInteger.pdf)          |     Easy      |    [C#](../../src/HackerRankSolutions/ProblemSolving/LonelyInteger.cs)    |
+|   Algorithms    | [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem) |    [Diagonal Difference](../ProblemSolving/ProblemSolving.Easy.DiagonalDifference.pdf)     |     Easy      | [C#](../../src/HackerRankSolutions/ProblemSolving/DiagonalDifference.cs)  |
+|   Algorithms    |      [Counting Sort1](https://www.hackerrank.com/challenges/countingsort1/problem)       |                 [Counting Sort 1](./ProblemSolving.Easy.CountingSort1.pdf)                 |     Easy      |    [C#](../../src/HackerRankSolutions/ProblemSolving/CountingSort.cs)     |
+|   Algorithms    | [Flipping the matrix](https://www.hackerrank.com/challenges/flipping-the-matrix/problem) |            [Flipping the matrix](./ProblemSolving.Medium.FlippingTheMatrix.pdf)            |    Medium     |   [C#](../../src/HackerRankSolutions/ProblemSolving/FlippingMatrix.cs)    |
+
