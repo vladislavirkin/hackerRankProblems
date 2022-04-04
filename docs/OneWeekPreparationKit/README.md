@@ -27,7 +27,7 @@
 
 ## Day 4
 
-|     Domain      |                                      HackerRank Link                                       |                                  Problem                                  | Difficulty  |                                 Solution                                 |
-|:---------------:|:------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:-----------:|:------------------------------------------------------------------------:|
-|   Algorithms    |       [Grid Challenge](https://www.hackerrank.com/challenges/grid-challenge/problem)       | [Grid Challenge](../ProblemSolving/ProblemSolving.Easy.GridChallenge.pdf) |    Easy     |   [C#](../../src/HackerRankSolutions/ProblemSolving/GridChallenge.cs)    |
-
+|     Domain      |                                       HackerRank Link                                       |                                          Problem                                           |  Difficulty  |                                 Solution                                  |
+|:---------------:|:-------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------:|:------------:|:-------------------------------------------------------------------------:|
+|   Algorithms    |       [Grid Challenge](https://www.hackerrank.com/challenges/grid-challenge/problem)        |         [Grid Challenge](../ProblemSolving/ProblemSolving.Easy.GridChallenge.pdf)          |     Easy     |    [C#](../../src/HackerRankSolutions/ProblemSolving/GridChallenge.cs)    |
+|   Algorithms    | [Recursive Digit Sum]((https://www.hackerrank.com/challenges/recursive-digit-sum/problem))  |    [Recursive Digit Sum](../ProblemSolving/ProblemSolving.Medium.RecursiveDigitSum.pdf)    |    Medium    |     [C#](../../src/HackerRankSolutions/ProblemSolving/SuperDigit.cs)      |
