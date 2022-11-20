@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions", "HackerRankSolutions\HackerRankSolutions.csproj", "{714A1E0B-3CB6-44CD-BC56-7086232BCD0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solution", "Solution\Solution.csproj", "{2CD07079-A799-4D79-BBCB-53FB0ABFCB1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{714A1E0B-3CB6-44CD-BC56-7086232BCD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{714A1E0B-3CB6-44CD-BC56-7086232BCD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{714A1E0B-3CB6-44CD-BC56-7086232BCD0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD07079-A799-4D79-BBCB-53FB0ABFCB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD07079-A799-4D79-BBCB-53FB0ABFCB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD07079-A799-4D79-BBCB-53FB0ABFCB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD07079-A799-4D79-BBCB-53FB0ABFCB1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
