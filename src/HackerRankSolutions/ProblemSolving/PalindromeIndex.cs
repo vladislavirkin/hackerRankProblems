@@ -7,38 +7,21 @@ namespace HackerRankSolutions.ProblemSolving;
 public class PalindromeIndex
 {
     [Test]
-    [TestCase("aaab", 3)]
-    [TestCase("baa", 0)]
-    [TestCase("aaa", -1)]
-    public void Solve(string s, int expected)
+    [TestCase(121, true)]
+    [TestCase(-121, false)]
+    [TestCase(1235321, true)]
+    public void Solve(int x, bool expected)
     {
-        var ret = -1;
-
-        if (IsPalindrome(s))
-            ret = -1;
+        bool ret;
+        
+        if (x < 0)
+            ret = false;
         else
         {
-            var left = 0;
-            var right = s.Length - 1;
-            while (left <= right)
-            {
-                if (s[left] != s[right])
-                    break;
-                left++;
-                right--;
-            }
-
-            if (IsPalindrome(s.Remove(left, 1)))
-                ret = left;
-            else if (IsPalindrome(s.Remove(right, 1)))
-                ret = right; 
+            var s = x.ToString();
+            ret = !s.Where((symbol, index) => symbol != s[s.Length - (index + 1)]).Any();
         }
 
         Assert.AreEqual(expected, ret, "Result calculated incorrectly.");
-    }
-
-    private bool IsPalindrome(string s)
-    {
-        return !s.Where((symbol, index) => symbol != s[s.Length - (index + 1)]).Any();
     }
 }
