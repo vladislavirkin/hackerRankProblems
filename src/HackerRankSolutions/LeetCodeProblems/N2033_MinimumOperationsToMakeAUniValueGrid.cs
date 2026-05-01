@@ -20,7 +20,6 @@ namespace HackerRankSolutions.LeetCodeProblems;
 ///     3. In 1D array saves frequencies for each element in grid.
 ///     4. No linq.
 /// </summary>
-
 [TestFixture(Description = "Medium"+"https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/")]
 public class N2033_MinimumOperationsToMakeAUniValueGrid
 {
