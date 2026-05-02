@@ -25,6 +25,7 @@ public class N13_RomanToInteger
         
         Assert.That(ret, Is.EqualTo(expected), "Result calculated incorrectly.");
     }
+    
     public int RomanToInt(string s)
     {
         var ret = 0;
