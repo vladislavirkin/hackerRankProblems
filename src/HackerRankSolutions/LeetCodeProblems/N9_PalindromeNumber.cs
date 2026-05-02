@@ -14,9 +14,7 @@ public class N9_PalindromeNumber
         bool ret;
 
         if( x < 0 || (x != 0 && x%10 == 0))
-        {
             ret = false;
-        }
 
         var y = x;
         var res = 0;

@@ -9,7 +9,7 @@ namespace HackerRankSolutions.LeetCodeProblems;
 /// M = 60 MB, beats 60%.
 /// </summary>
 [TestFixture(Description = "Medium" + "https://leetcode.com/problems/rotate-function/")]
-public class N396_RotateFunction
+public class N396_RETRY_RotateFunction
 {
     public static IEnumerable<TestCaseData> TestSource()
     {

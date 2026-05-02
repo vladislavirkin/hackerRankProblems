@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace HackerRankSolutions.LeetCodeProblems;
 
 [TestFixture(Description = "Hard" + "https://leetcode.com/problems/maximum-score-from-grid-operations/")]
-public class N3225_MaximumScoreFromGridOperations
+public class N3225_WIP_MaximumScoreFromGridOperations
 {
     public static IEnumerable<TestCaseData> TestSource()
     {

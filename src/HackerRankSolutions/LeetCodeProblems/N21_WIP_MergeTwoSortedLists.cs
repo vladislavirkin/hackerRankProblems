@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace HackerRankSolutions.LeetCodeProblems;
 
 [TestFixture(Description = "Easy"+"https://leetcode.com/problems/merge-two-sorted-lists/")]
-public class N21_MergeTwoSortedLists
+public class N21_WIP_MergeTwoSortedLists
 {
     public static IEnumerable<TestCaseData> TestSource()
     {

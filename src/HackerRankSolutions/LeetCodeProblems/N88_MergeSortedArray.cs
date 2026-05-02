@@ -42,8 +42,8 @@ public class N88_MergeSortedArray
         }
 
         int i = m + n - 1;
-        m = m - 1;
-        n = n - 1;
+        m -= 1;
+        n -= 1;
         
         while (n >= 0)
         {

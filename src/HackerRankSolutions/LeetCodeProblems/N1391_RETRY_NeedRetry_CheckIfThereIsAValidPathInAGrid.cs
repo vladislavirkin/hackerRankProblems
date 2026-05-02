@@ -7,7 +7,7 @@ namespace HackerRankSolutions.LeetCodeProblems;
 /// Retry with DFS, DHS, DSU etc.
 /// </summary>
 [TestFixture(Description = "Medium" + "https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/")]
-public class N1391_NeedRetry_CheckIfThereIsAValidPathInAGrid
+public class N1391_RETRY_NeedRetry_CheckIfThereIsAValidPathInAGrid
 {
     public static IEnumerable<TestCaseData> TestSource()
     {
