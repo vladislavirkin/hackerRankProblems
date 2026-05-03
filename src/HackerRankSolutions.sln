@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRankSolutions", "Hack
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solution", "Solution\Solution.csproj", "{2CD07079-A799-4D79-BBCB-53FB0ABFCB1F}"
 EndProject
+Project("{42EA0DBD-9CF1-443E-919E-BE9C484E4577}") = "SqlSolutions", "SqlSolutions\SqlSolutions.sqlproj", "{4A43734C-DA08-4A24-B81D-874D207B10D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{2CD07079-A799-4D79-BBCB-53FB0ABFCB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CD07079-A799-4D79-BBCB-53FB0ABFCB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CD07079-A799-4D79-BBCB-53FB0ABFCB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A43734C-DA08-4A24-B81D-874D207B10D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A43734C-DA08-4A24-B81D-874D207B10D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A43734C-DA08-4A24-B81D-874D207B10D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A43734C-DA08-4A24-B81D-874D207B10D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
