@@ -84,7 +84,7 @@ public class N2033_MinimumOperationsToMakeAUniValueGrid
         var min = 10000;
         Span<int> med = stackalloc int[10000];
         foreach (int[] arr in grid)
-        foreach (int n in arr) {
+            foreach (int n in arr) {
             if (n % x != rem)
                 return -1;
 
