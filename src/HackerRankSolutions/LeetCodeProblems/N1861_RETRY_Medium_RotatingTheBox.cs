@@ -12,7 +12,7 @@ namespace HackerRankSolutions.LeetCodeProblems;
 /// M = 93 MB, beats 41%.
 /// </summary>
 [TestFixture(Description = "Medium" + "https://leetcode.com/problems/rotating-the-box/")]
-public class N1861_Medium_RotatingTheBox
+public class N1861_RETRY_Medium_RotatingTheBox
 {
     public static IEnumerable<TestCaseData> TestSource()
     {

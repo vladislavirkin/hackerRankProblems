@@ -4,7 +4,6 @@ using NUnit.Framework;
 
 namespace HackerRankSolutions.LeetCodeProblems;
 
-
 /// <summary>
 /// RT = 0 ms, beats 100%.
 /// M = 47 MB, beats 90%. Всегда разные значения при отправки на сервера литкода.
