@@ -14,6 +14,8 @@ insert into Address (addressId, personId, city, state) values ('2', '3', 'Leetco
 
 -- Act
 
+/*
 SELECT p.firstName, p.lastName, a.city, a.state
 FROM Person p
 LEFT JOIN Address a ON Person.personId = Address.personId
+*/
