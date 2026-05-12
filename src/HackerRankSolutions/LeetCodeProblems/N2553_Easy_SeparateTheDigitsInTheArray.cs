@@ -33,7 +33,7 @@ public class N2553_Easy_SeparateTheDigitsInTheArray
         for (int i = nums.Length - 1; i >= 0; i--)
         {
             int digit = nums[i];
-            while ( digit> 0)
+            while ( digit > 0)
             {
                 ret.Add(digit % 10);
                 digit /= 10;
