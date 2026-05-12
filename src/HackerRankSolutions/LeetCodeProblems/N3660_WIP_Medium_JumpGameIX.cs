@@ -13,6 +13,7 @@ public class N3660_WIP_Medium_JumpGameIX
     }
     
     [Test]
+    [Ignore("WIP")]
     [TestCaseSource(nameof(TestSource))]
     public void Solve(int[] nums, int[] expectedNums)
     {

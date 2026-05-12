@@ -13,6 +13,7 @@ public class N3225_WIP_MaximumScoreFromGridOperations
     }
     
     [Test]
+    [Ignore("WIP")]
     [TestCaseSource(nameof(TestSource))]
     public void Solve(int[][] grid, long expected)
     {

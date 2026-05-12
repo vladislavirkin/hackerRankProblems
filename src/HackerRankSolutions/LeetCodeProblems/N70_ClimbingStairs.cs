@@ -4,6 +4,7 @@ using NUnit.Framework;
 namespace HackerRankSolutions.LeetCodeProblems;
 
 /// <summary>
+/// <see cref="ClimbStairs"/>
 /// RT = 0 ms, beats 100%.
 /// M = 28 MB, beats 93%.
 /// </summary>
@@ -31,11 +32,11 @@ public class N70_ClimbingStairs
         if (n <= 2)
             return n;
 
-        var previous = 3;
-        var preprevious = 2;
+        var previous = 2;
+        var preprevious = 1;
         var cur = 0;
 
-        for (int i = 3; i < n; i++)
+        for (int i = 3; i <= n; i++)
         {
             cur = previous + preprevious;
             preprevious = previous;

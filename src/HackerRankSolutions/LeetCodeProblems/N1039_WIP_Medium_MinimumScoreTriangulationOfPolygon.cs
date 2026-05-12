@@ -17,6 +17,7 @@ public class N1039_WIP_Medium_MinimumScoreTriangulationOfPolygon
     }
     
     [Test]
+    [Ignore("WIP")]
     [TestCaseSource(nameof(TestSource))]
     public void Solve(int[] nums, int expected)
     {

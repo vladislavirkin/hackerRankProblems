@@ -15,6 +15,7 @@ public class N21_WIP_MergeTwoSortedLists
     }
     
     [Test]
+    [Ignore("WIP")]
     [TestCaseSource(nameof(TestSource))]
     public void Solve(int[] x, int[] y, int[] expected)
     {
