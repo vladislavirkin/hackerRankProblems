@@ -18,7 +18,7 @@ namespace HackerRankSolutions.LeetCodeProblems;
 /// M = 41,17 MB, beats 23%.
 /// </summary>
 [TestFixture(Description = "Easy" + "https://leetcode.com/problems/rotate-string/")]
-public class N796_RotateString
+public class N796_Easy_RotateString
 {
     public static IEnumerable<TestCaseData> TestSource()
     {

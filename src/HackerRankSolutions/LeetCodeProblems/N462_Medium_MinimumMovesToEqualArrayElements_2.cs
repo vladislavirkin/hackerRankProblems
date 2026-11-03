@@ -9,7 +9,7 @@ namespace HackerRankSolutions.LeetCodeProblems;
 /// M = 43 MB, beats 93%.
 /// </summary>
 [TestFixture(Description = "Medium" + "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/")]
-public class N462_MinimumMovesToEqualArrayElements_2
+public class N462_Medium_MinimumMovesToEqualArrayElements_2
 {
     public static IEnumerable<TestCaseData> TestSource()
     {
