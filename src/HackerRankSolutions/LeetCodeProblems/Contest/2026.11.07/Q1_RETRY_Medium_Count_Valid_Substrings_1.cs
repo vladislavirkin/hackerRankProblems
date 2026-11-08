@@ -10,7 +10,7 @@ namespace HackerRankSolutions.LeetCodeProblems.Contest._2026._11._07;
 /// M = 51 MB, beats 86%.
 /// </summary>
 [TestFixture(Description = "Medium" + "https://leetcode.com/contest/biweekly-contest-195/problems/count-valid-substrings-i/")]
-public class Q1_Medium_Count_Valid_Substrings_1
+public class Q1_RETRY_Medium_Count_Valid_Substrings_1
 {
     public static IEnumerable<TestCaseData> TestSource()
     {
