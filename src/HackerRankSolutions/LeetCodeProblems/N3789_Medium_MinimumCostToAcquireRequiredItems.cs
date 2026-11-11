@@ -5,6 +5,8 @@ using NUnit.Framework;
 namespace HackerRankSolutions.LeetCodeProblems;
 
 /// <summary>
+/// # Main idea: Greedy.
+/// Just compare separate costs and both cost * min + rest.
 /// <see cref="MinimumCost"/>
 /// RT = 0 ms, beats 100%.
 /// M = 28 MB, beats 85%.
