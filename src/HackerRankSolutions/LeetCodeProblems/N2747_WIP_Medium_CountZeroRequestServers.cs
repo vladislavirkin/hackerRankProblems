@@ -10,7 +10,7 @@ namespace HackerRankSolutions.LeetCodeProblems;
 /// M = 42 MB, beats 86%.
 /// </summary>
 [TestFixture(Description = "Medium" + "https://leetcode.com/problems/count-zero-request-servers/")]
-public class N2747_Medium_CountZeroRequestServers
+public class N2747_WIP_Medium_CountZeroRequestServers
 {
     public static IEnumerable<TestCaseData> TestSource()
     {
