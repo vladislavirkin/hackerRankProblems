@@ -19,8 +19,8 @@ public class N3420_RETRY_Hard_CountNonDecreasingSubarraysAfterKOperations
 {
     public static IEnumerable<TestCaseData> TestSource()
     {
-        // yield return new TestCaseData(new [] { 6, 3, 1, 2, 4, 4 }, 7, 17);
-        // yield return new TestCaseData(new [] { 6, 3, 1, 3, 6 }, 4, 12);
+        yield return new TestCaseData(new [] { 6, 3, 1, 2, 4, 4 }, 7, 17);
+        yield return new TestCaseData(new [] { 6, 3, 1, 3, 6 }, 4, 12);
         yield return new TestCaseData(new [] { 1000000000, 1, 1, 1, 1 }, 1_000_000_000, 12);
     }
 
