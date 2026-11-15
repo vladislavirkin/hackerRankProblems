@@ -4,12 +4,12 @@ using NUnit.Framework;
 namespace HackerRankSolutions.LeetCodeProblems;
 
 /// <summary>
-/// <see cref="RotatedDigitsBruteForce(int n)"/>
-/// RT = 5 ms, beats 73%.
-/// M = 29 MB, beats 56%.
-/// <see cref="RotatedDigitsBruteForce(int n)"/>
+/// <see cref="RotatedDigits_Dp"/>
 /// RT = 1 ms, beats 100%.
 /// M = 29 MB, beats 84%.
+/// <see cref="RotatedDigits_BruteForce"/>
+/// RT = 5 ms, beats 73%.
+/// M = 29 MB, beats 56%.
 /// </summary>
 [TestFixture(Description = "Medium" + "https://leetcode.com/problems/rotated-digits/")]
 public class N788_DP_RotatedDigits
@@ -27,12 +27,12 @@ public class N788_DP_RotatedDigits
     [TestCaseSource(nameof(TestSource))]
     public void Solve(int n, int expected)
     {
-        // var ret = RotatedDigitsBruteForce(n);
-        var ret = RotatedDigitsDp(n);
+        // var ret = RotatedDigits_BruteForce(n);
+        var ret = RotatedDigits_Dp(n);
         Assert.That(ret, Is.EqualTo(expected), "Result calculated incorrectly.");
     }
 
-    public int RotatedDigitsDp(int n)
+    public int RotatedDigits_Dp(int n)
     {
         string s = n.ToString();
         int[,,] dp = new int[s.Length, 2, 2];
@@ -92,7 +92,7 @@ public class N788_DP_RotatedDigits
         return dp[i, foundGood, tight] = count;
     }
     
-    public int RotatedDigitsBruteForce(int n)
+    public int RotatedDigits_BruteForce(int n)
     {
         var ret = 0;
         
