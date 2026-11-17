@@ -34,7 +34,8 @@ public class N929_Easy_UniqueEmailAddresses
     {
         var seen = new HashSet<string>();
 
-        foreach (var email in emails) {
+        foreach (var email in emails)
+        {
             ReadOnlySpan<char> span = email.AsSpan();
         
             // Allocate a temporary buffer on the stack (zero heap allocation)
@@ -44,19 +45,23 @@ public class N929_Easy_UniqueEmailAddresses
             bool ignoreLocal = false;
 
             // 1. Process local name up to '@'
-            while (i < span.Length && span[i] != '@') {
+            while (i < span.Length && span[i] != '@')
+            {
                 char c = span[i];
-                if (c == '+') {
+                if (c == '+')
+                {
                     ignoreLocal = true;
                 }
-                else if (!ignoreLocal && c != '.') {
+                else if (!ignoreLocal && c != '.')
+                {
                     buffer[written++] = c;
                 }
                 i++;
             }
 
             // 2. Process domain name (if '@' was found)
-            while (i < span.Length) {
+            while (i < span.Length)
+            {
                 buffer[written++] = span[i++];
             }
 

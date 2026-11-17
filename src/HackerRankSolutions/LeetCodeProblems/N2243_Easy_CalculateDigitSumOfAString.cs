@@ -18,7 +18,7 @@ namespace HackerRankSolutions.LeetCodeProblems;
 /// RT = 0 ms, beats 100%.
 /// M = 39.01 MB, beats 82.76%.
 /// </summary>
-[TestFixture(Description = "Easy" + "https://leetcode.com/problems/minimum-positive-sum-subarray/")]
+[TestFixture(Description = "Easy" + "https://leetcode.com/problems/calculate-digit-sum-of-a-string/")]
 public class N2243_Easy_CalculateDigitSumOfAString
 {
     public static IEnumerable<TestCaseData> TestSource()
