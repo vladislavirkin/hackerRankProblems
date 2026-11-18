@@ -7,17 +7,16 @@ namespace HackerRankSolutions.LeetCodeProblems;
 /// # Main idea:
 /// Bruteforce.
 /// <see cref="DigitSum"/>
-/// Complexity | O(n) Proof.
-/// O(n) Time and O(n) Space.
-/// A round costs about as much as the current length.
-/// At worst, the length stays the same for one round and then halves,
-/// so all the rounds together cost: n + n + n/2 + n/2 + n/4 + ... = 2(n + n/2 + n/4 + ...) < 4n.
-/// ---
 /// O(n), O(n) space.
-/// ---
 /// RT = 0 ms, beats 100%.
 /// M = 39.01 MB, beats 82.76%.
 /// </summary>
+// Complexity Proof.
+// O(n) Time and O(n) Space.
+// A round costs about as much as the current length.
+// At worst, the length stays the same for one round and then halves,
+// so all the rounds together cost:
+// n + n + n/2 + n/2 + n/4 + ... = 2(n + n/2 + n/4 + ...) < 4n
 [TestFixture(Description = "Easy" + "https://leetcode.com/problems/calculate-digit-sum-of-a-string/")]
 public class N2243_Easy_CalculateDigitSumOfAString
 {
