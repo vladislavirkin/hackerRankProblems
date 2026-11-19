@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using HackerRankSolutions.LeetCodeProblems.Helpers.ListNode;
 using NUnit.Framework;
 
 namespace HackerRankSolutions.LeetCodeProblems;
@@ -25,12 +26,12 @@ public class N61_Medium_RotateList
     [TestCaseSource(nameof(TestSource))]
     public void Solve(int[] x, int k, int[] expected)
     {
-        var ret = RotateRight(ListNode.FromArray(x), k);
+        var ret = RotateRight(x.ToListNode(), k);
 
         Assert.That(ret.ToArray(), Is.EqualTo(expected), "Result calculated incorrectly.");
     }
 
-    public ListNode RotateRight(ListNode head, int k)
+    public ListNode? RotateRight(ListNode? head, int k)
     {
         if (head == null || k == 0 || head.next == null)
             return head;
@@ -55,7 +56,7 @@ public class N61_Medium_RotateList
         return list[length - rem];
     }
     
-    public ListNode RotateRightM(ListNode head, int k)
+    public ListNode? RotateRightM(ListNode? head, int k)
     {
         if (head == null || head.next == null || k == 0)
             return head;
@@ -76,64 +77,18 @@ public class N61_Medium_RotateList
 
         // Step 3: find new tail (nodecount - k - 1)
         int stepsToNewTail = nodecount - k - 1;
-        ListNode newTail = head;
+        ListNode? newTail = head;
 
         for (int i = 0; i < stepsToNewTail; i++)
         {
-            newTail = newTail.next;
+            newTail = newTail?.next;
         }
 
         // Step 4: rearrange pointers
-        ListNode newHead = newTail.next;
-        newTail.next = null;
+        ListNode? newHead = newTail?.next;
+        newTail?.next = null;
         tail.next = head;
 
         return newHead;
-    }
-
-    public class ListNode
-    {
-        public int val;
-        public ListNode? next;
-
-        public ListNode(int val = 0, ListNode next = null)
-        {
-            this.val = val;
-            this.next = next;
-        }
-
-        public int[] ToArray()
-        {
-            var ret = new List<int>();
-            var node = this;
-            do
-            {
-                ret.Add(node.val);
-                node = node.next;
-            } while (node != null);
-            
-            return ret.ToArray();
-        }
-        
-        public static ListNode? FromArray(int [] arr)
-        {
-            if (arr.Length == 0)
-                return null;
-            
-            var ret = new ListNode(arr[0]);
-            if (arr.Length == 1)
-                return ret;
-            
-            var tmp = ret;
-
-            for (int i = 1; i <= arr.Length - 1; i++)
-            {
-                
-                tmp.next = new ListNode(arr[i]);
-                tmp = tmp.next;
-            }
-            
-            return ret;
-        }
     }
 }

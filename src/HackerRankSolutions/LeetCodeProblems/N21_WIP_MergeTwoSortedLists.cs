@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using HackerRankSolutions.LeetCodeProblems.Helpers.ListNode;
 using NUnit.Framework;
 
 namespace HackerRankSolutions.LeetCodeProblems;
@@ -68,10 +69,4 @@ public class N21_WIP_MergeTwoSortedLists
         start.next = list2.next;
         return start;
     }
-}
-
-public class ListNode(int val = 0, ListNode? next = null)
-{ 
-    public int val = val; 
-    public ListNode? next = next;
 }

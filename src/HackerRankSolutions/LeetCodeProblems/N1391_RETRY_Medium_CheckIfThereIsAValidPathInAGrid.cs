@@ -144,43 +144,43 @@ public class N1391_RETRY_Medium_CheckIfThereIsAValidPathInAGrid
 
         public (int, int) CrossGrid(int i, int j)
         {
-            if (start == 1)
+            if (Start == 1)
             {
-                if (end == 2)
+                if (End == 2)
                     return (i + 1, j);
-                if (end == 3)
+                if (End == 3)
                     return (i, j + 1);
-                if (end == 4)
+                if (End == 4)
                     return (i - 1, j);
             }
             
-            if (start == 2)
+            if (Start == 2)
             {
-                if (end == 1)
+                if (End == 1)
                     return (i, j - 1);
-                if (end == 3)
+                if (End == 3)
                     return (i, j + 1);
-                if (end == 4)
+                if (End == 4)
                     return (i - 1, j);
             }
             
-            if (start == 3)
+            if (Start == 3)
             {
-                if (end == 1)
+                if (End == 1)
                     return (i, j - 1);
-                if (end == 2)
+                if (End == 2)
                     return (i + 1, j);
-                if (end == 4)
+                if (End == 4)
                     return (i - 1, j);
             }
             
-            if (start == 4)
+            if (Start == 4)
             {
-                if (end == 1)
+                if (End == 1)
                     return (i, j - 1);
-                if (end == 2)
+                if (End == 2)
                     return (i + 1, j);
-                if (end == 3)
+                if (End == 3)
                     return (i, j + 1);
             }
             

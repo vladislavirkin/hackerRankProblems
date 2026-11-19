@@ -6,10 +6,10 @@ public static class Mapping
 {
     public static TreeNode? BuildTree(this int?[] arr)
     {
-        if (arr == null || arr.Length == 0 || arr[0] == null)
+        if (arr.Length == 0 || arr[0] == null)
             return null;
 
-        var root = new TreeNode(arr[0].Value);
+        var root = new TreeNode(arr[0]!.Value);
         var queue = new Queue<TreeNode>();
         queue.Enqueue(root);
 
@@ -20,7 +20,7 @@ public static class Mapping
 
             if (i < arr.Length && arr[i] != null)
             {
-                curr.left = new TreeNode(arr[i].Value);
+                curr.left = new TreeNode(arr[i]!.Value);
                 queue.Enqueue(curr.left);
             }
 
@@ -28,7 +28,7 @@ public static class Mapping
 
             if (i < arr.Length && arr[i] != null)
             {
-                curr.right = new TreeNode(arr[i].Value);
+                curr.right = new TreeNode(arr[i]!.Value);
                 queue.Enqueue(curr.right);
             }
 

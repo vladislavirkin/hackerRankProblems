@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using HackerRankSolutions.LeetCodeProblems.Helpers.ListNode;
 using NUnit.Framework;
 
 namespace HackerRankSolutions.LeetCodeProblems;
@@ -70,30 +71,5 @@ public class N83_Easy_RemoveDuplicatesFromSortedList
         GC.Collect();
         
         return head;
-    }
-    
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int val = 0, ListNode next = null)
-        {
-            this.val = val;
-            this.next = next;
-        }
-
-        public int[] ToArray()
-        {
-            var ret = new List<int>();
-            ret.Add(val);
-            var cur = next;
-            while (cur != null)
-            {
-                ret.Add(cur.val);
-                cur = cur.next;
-            }
-            
-            return ret.ToArray();
-        }
     }
 }

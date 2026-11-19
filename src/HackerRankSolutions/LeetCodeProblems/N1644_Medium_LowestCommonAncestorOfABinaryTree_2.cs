@@ -135,24 +135,23 @@ public class N1644_Medium_LowestCommonAncestorOfABinaryTree_2
     
     public TreeNode? LCA(TreeNode root, TreeNode p, TreeNode q)
     {
-        TreeNode? ret = null;
         var nodesFound = false;
         
         // Start DFS traversal to find the lowest common ancestor
-        TreeNode ans = DFS(root, p, q, ref nodesFound);
+        TreeNode? ret = DFS(root, p, q, ref nodesFound);
         // Return the result only if both nodes are found
-        return nodesFound ? ans : null;
+        return nodesFound ? ret : null;
     }
 
-    private TreeNode DFS(TreeNode node, TreeNode p, TreeNode q, ref bool nodesFound)
+    private TreeNode? DFS(TreeNode? node, TreeNode p, TreeNode q, ref bool nodesFound)
     {
         // Base case: If the node is null, return null
         if (node == null)
             return null;
 
         // Recursively search the left and right subtrees
-        TreeNode left = DFS(node.left, p, q, ref nodesFound);
-        TreeNode right = DFS(node.right, p, q, ref nodesFound);
+        TreeNode? left = DFS(node.left, p, q, ref nodesFound);
+        TreeNode? right = DFS(node.right, p, q, ref nodesFound);
 
         // Check conditions for current node being part of the solution
         int conditions = 0;

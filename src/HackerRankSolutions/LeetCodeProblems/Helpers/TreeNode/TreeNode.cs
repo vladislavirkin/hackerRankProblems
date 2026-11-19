@@ -38,7 +38,7 @@ public class TreeNode
     
     public void Print()
     {
-        var queue = new Queue<TreeNode>();
+        var queue = new Queue<TreeNode?>();
         queue.Enqueue(this);
         var level = 0;
 

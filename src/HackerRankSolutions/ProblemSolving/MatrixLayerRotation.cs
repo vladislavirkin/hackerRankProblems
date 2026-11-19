@@ -8,7 +8,7 @@ namespace HackerRankSolutions.ProblemSolving;
 [TestFixture]
 public class MatrixLayerRotation
 {
-    private List<List<int>> _rotatedMatrix;
+    private List<List<int>> _rotatedMatrix = new ();
     private int _columns, _rows, _rotate;
     
     public static IEnumerable<TestCaseData> TestSource()
@@ -56,7 +56,7 @@ public class MatrixLayerRotation
 
     private List<int> ShiftRect(List<int> items, int places)
     {
-        return items.Select((t, i) => items[(i + Math.Abs(items.Count - places)) % items.Count]).ToList();
+        return items.Select((_, i) => items[(i + Math.Abs(items.Count - places)) % items.Count]).ToList();
     }
 
     private List<int> FillRect(int bottom)
